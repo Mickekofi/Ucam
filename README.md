@@ -131,7 +131,7 @@ Each entry contains:
 
 ---
 
-## 📌 Summary Table of Features
+## Summary Table of Features
 
 | Feature                             | Description                                                             |
 |-------------------------------------|-------------------------------------------------------------------------|
@@ -144,6 +144,113 @@ Each entry contains:
 | ☞ Auditable Logs                   | Tracks actions and decisions for full accountability                    |
 
 ---
+
+
+## 🧭 How Schools Use This System (Step-by-Step for Non-Technical Users)
+
+This guide explains how **students**, **department admins**, and **super admins** can use the system — no IT skills needed.
+
+---
+
+### 👨‍🎓 1. Student: How to Apply for Admission
+
+1. **Visit the Application Portal:**
+   - Open the link provided by the school (e.g. `http://localhost/intelligent_portal/` or a public Ngrok/Cloudflare link).
+
+2. **Fill the Online Form:**
+   - Enter personal details, SHS subjects and WAEC grades.
+   - Choose your 1st, 2nd, and 3rd program preferences.
+   - Upload any required documents.
+
+3. **Submit Application:**
+   - Click **Submit** after reviewing.
+   - A **PDF receipt** is downloaded automatically.
+   - A **confirmation email** is sent instantly.
+
+4.  **Done!** The system now takes over with auto-screening.
+
+---
+
+### 🤖 2. Auto-Admit System: Smart, Instant Admission
+
+If a student’s **WAEC grades match the admission criteria** of their:
+
+- **1st choice** → The system **automatically admits** the student.
+- ❌ If rejected → Automatically moves to **2nd choice**
+- ❌ If rejected again → Moves to **3rd choice**
+- ❌ If all 3 fail → A polite rejection message is generated.
+
+ Criteria is stored in the system as smart rules (e.g., must get at least C6 in Math and English for BSc programs).
+
+> 🎯 This eliminates bias, saves time, and ensures fair admission.
+
+---
+
+### 🧑‍💼 3. Department Admin: What You Can Do
+
+1. **Open the Admin App:**
+   - Double-click the Windows application (no browser needed).
+   - Login using your assigned Department Admin credentials.
+
+2. **Monitor Applicants in Your Department:**
+   - View applicants who selected your department as 1st, 2nd, or 3rd choice.
+   - See whether they were **auto-admitted** or still **pending**.
+
+3. **Manually Review or Adjust Decisions (If Needed):**
+   - For applicants who didn’t meet auto-admit criteria, you can:
+     - Admit manually
+     - Reject with a reason
+   - You can also override auto decisions in special cases (if permitted).
+
+4. **Export Reports:**
+   - Download Excel or PDF list of admitted students.
+   - Track all admission activities in a readable format.
+
+---
+
+### 👩‍💻 4. Super Admin: System Control & Monitoring
+
+1. **Login to the Super Admin Dashboard**
+   - Use the same app, but login as a Super Admin.
+
+2. **Manage the Entire Admission Process:**
+   - View all applicants across departments
+   - Monitor all decisions (manual or automatic)
+   - Update or add department-specific criteria
+
+3. **Manage Admin Accounts:**
+   - Create or remove department admin users
+   - Reset passwords
+   - Enable/disable programs
+
+4. **View Logs & Reports:**
+   - Every action is logged with:
+     - Timestamp
+     - Admin who took the action
+     - Reason for decision
+   - Logs are accessible and exportable
+
+---
+
+### 🧾 Summary of Roles
+
+| Role              | Capabilities                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| 👨‍🎓 Student         | Applies online, receives PDF + email confirmation                            |
+| 🤖 Auto-Admit Bot   | Automatically admits qualified students based on WAEC + subject criteria     |
+| 🧑‍💼 Department Admin | Views and manages department-specific applicants; can override auto-decisions |
+| 👩‍💻 Super Admin     | Full control over all departments, users, audit logs, and admission rules     |
+
+---
+
+
+
+- **Students** need only a browser or smartphone  
+- **Admins** just open a desktop app and log in
+
+> The system is designed for *ease, fairness, speed, and automation*. Schools without IT departments can still run full digital admissions — smoothly.
+
+
 
 ## ඏ Designed For:
 
