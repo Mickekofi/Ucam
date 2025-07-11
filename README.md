@@ -27,20 +27,21 @@
 
 ---
 
-### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen?
+### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
 
+Simply we say;
 ####  1. A Decentralized Management Architecture  
 ####  2. Scalable User Permission System  
 ####  3. Controlled Role-Based Access  
 
 Together, we call this:
 
-## 🔐 **Separation of Power – Role-Based Access Design**
+## 🔐 R1 **Separation of Power Role Based Access Design**
 
 Implemented via clearly defined roles:
 
-- **Super Admins** – Global oversight & auditing
-- **Department Admins** – Local, scoped access to their own department data
+- **Super Admins** : Global oversight & auditing
+- **Department Admins** : Local, scoped access to their own department data
 
 > ✓ Ensures accountability, clarity, scalability, and structured control.
 
@@ -112,7 +113,7 @@ A unique module that auto-admits qualified applicants based on subject-grade cri
 
 ---
 
-##  Audit Logs & Admission Flow Tracking
+## R8 Audit Logs & Admission Flow Tracking
 
 Every action is logged in:
 
@@ -144,7 +145,7 @@ Each entry contains:
 
 ---
 
-## 🚀 Designed For:
+## ඏ Designed For:
 
 - Universities, Colleges and Technical Universities
 - Admission Committees
