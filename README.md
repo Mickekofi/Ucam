@@ -27,6 +27,9 @@
 
 ---
 
+- [ How Schools Can Use ](#how schools use this system step-by-step for non-technical users)
+
+
 ### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
 
 Simply we say;
@@ -146,7 +149,7 @@ Each entry contains:
 ---
 
 
-## 🧭 How Schools Use This System (Step-by-Step for Non-Technical Users)
+## How Schools Use This System (Step-by-Step for Non-Technical Users)
 
 This guide explains how **students**, **department admins**, and **super admins** can use the system — no IT skills needed.
 
