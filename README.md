@@ -1,5 +1,5 @@
 ‎=<p align="center">
-‎  <a href="https://wa.me/233505994829?text=*Ucam_From_Github_User_💬Message_:*%20">
+‎  
 ‎    <img src="https://github.com/Mickekofi/Ucam/blob/master/ucam_logo.png" width="130">
 ‎  </a>
 ‎  <a href = "">
