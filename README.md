@@ -2,7 +2,7 @@
 ‎  
 ‎    <img src="https://github.com/Mickekofi/Ucam/blob/master/ucam_logo.png" width="130">
 ‎  </a>
-‎  <a href = "">
+‎  
 ‎  <h1 align="center"><strong>College/University Admission Management System</strong></h1>
 ‎  </a>
 ‎  <p align="center">
