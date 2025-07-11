@@ -152,6 +152,10 @@ Each entry contains:
 
 ---
 
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/dbsheet.png)
+
+
+
 
 ## How Schools Use This System Step by Step for Non-Technical Users
 
