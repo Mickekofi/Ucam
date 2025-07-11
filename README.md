@@ -27,14 +27,14 @@
 
 ---
 
-- [ How Schools Can Use ](#how-schools-use-this-system-step-by-step-for-non-technical-users)
+- [How Schools Use The System (Simplified)](#how-schools-use-this-system-step-by-step-for-non-technical-users)
 
 - [‎☞ Built and Designed For](#built-and-designed-for)
 
 - [ඏ Project Origin](#project-origin)
 
 
-### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
+#### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
 
 Simply we say;
 ####  1. A Decentralized Management Architecture  
