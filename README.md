@@ -27,7 +27,7 @@
 
 ---
 
-- [ How Schools Can Use ](##-how-schools-use-this-system-step-by-step-for-non-technical-users)
+- [ How Schools Can Use ](#how-schools-use-this-system-step-by-step-for-non-technical-users)
 
 - [Built and Designed For](#built-and-designed-for)
 
