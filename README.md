@@ -21,16 +21,17 @@
 ‎A Full hybrid Web(client) +plus Desktop(Admin) **College/University Admission Management Software** with an *Open Enterprise Grade Architecture Systems Design.*
 
 
-> Before we throw dozens of words & docs at you…  
-> **Let’s Answer Your Question in 2 Minutes:**
+> Before we throw dozens of words & docs at you…
+
+> **Let’s Answer Your Question❓ in 2 Minutes:**
 
 ---
 
-## ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen?
+### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen?
 
-###  1. A Decentralized Management Architecture  
-###  2. Scalable User Permission System  
-###  3. Controlled Role-Based Access  
+####  1. A Decentralized Management Architecture  
+####  2. Scalable User Permission System  
+####  3. Controlled Role-Based Access  
 
 Together, we call this:
 
