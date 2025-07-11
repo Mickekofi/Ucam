@@ -33,7 +33,7 @@
 
 - [ඏ Project Origin](#project-origin)
 
-- [ Enterprise Grade Architecture Design(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
+- [☞Enterprise Grade Architecture Design & Deployment(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
 
   
 ### Q1.Why did We do this & What at all have we Implemented that Most Systems in Ghana & Africa have not yet Seen❓
@@ -153,7 +153,8 @@ Each entry contains:
 | ☞ Auditable Logs                   | Tracks actions and decisions for full accountability                    |
 
 ---
-
+- [☞ Enterprise Grade Architecture Design & Deployment(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
+☝🏾
 ![Preview](https://github.com/Mickekofi/Ucam/blob/master/dbsheet.png)
 
 
