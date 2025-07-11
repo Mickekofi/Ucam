@@ -33,7 +33,7 @@
 
 - [ඏ Project Origin](#project-origin)
 
-- [ Enterprise Grade Architecture Design(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/EnterpriseGradeDesign.md)
+- [ Enterprise Grade Architecture Design(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
 
   
 ### Q1.Why did We do this & What at all have we Implemented that Most Systems in Ghana & Africa have not yet Seen❓
