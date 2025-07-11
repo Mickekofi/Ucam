@@ -149,7 +149,7 @@ Each entry contains:
 ---
 
 
-## How Schools Use This System (Step-by-Step for Non-Technical Users)
+## How Schools Use This System Step by Step for Non-Technical Users
 
 This guide explains how **students**, **department admins**, and **super admins** can use the system — no IT skills needed.
 
