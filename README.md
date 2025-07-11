@@ -263,6 +263,6 @@ If a student’s **WAEC grades match the admission criteria** of their:
 
 *A Project From the University of Education, Winneba* 
 
-***Graded and Scored by Doctor, Daniel Danso Essel [ ‎☞ D.D.E ](https://www.uew.edu.gh/dict/staff/ddessel)***
+✦***Graded and Scored by Doctor, Daniel Danso Essel [ ‎☞ D.D.E ](https://www.uew.edu.gh/dict/staff/ddessel)***
 
-> 
+
