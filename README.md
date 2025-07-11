@@ -260,4 +260,9 @@ If a student’s **WAEC grades match the admission criteria** of their:
 - Offline Environments with Local Networks
 
 > Built with ❤️ for **Ghana and Africa**, to solve local problems with global-class solutions.
+
+*A Project From the University of Education, Winneba* 
+
+> Graded and Supervised by Doctor, Daniel Danso Essel [ ‎☞ D.D.E ](https://www.uew.edu.gh/dict/staff/ddessel)
+
 > 
