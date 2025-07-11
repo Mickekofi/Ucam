@@ -29,7 +29,7 @@
 
 - [ How Schools Can Use ](##-how-schools-use-this-system-step-by-step-for-non-technical-users)
 
-- [ Built For ‎☞](#-designed-for)
+- [ Built & Design‎ ](#-designed-for)
 
 ### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
 
@@ -256,7 +256,7 @@ If a student’s **WAEC grades match the admission criteria** of their:
 
 
 
-## Designed For
+## Built and Designed For
 
 - Universities, Colleges and Technical Universities
 - Admission Committees
