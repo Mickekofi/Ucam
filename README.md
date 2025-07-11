@@ -29,6 +29,7 @@
 
 - [ How Schools Can Use ](##-how-schools-use-this-system-step-by-step-for-non-technical-users)
 
+- [ Built For ‎☞](#-designed-for)
 
 ### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
 
@@ -255,7 +256,7 @@ If a student’s **WAEC grades match the admission criteria** of their:
 
 
 
-## ඏ Designed For:
+## Designed For
 
 - Universities, Colleges and Technical Universities
 - Admission Committees
@@ -264,7 +265,7 @@ If a student’s **WAEC grades match the admission criteria** of their:
 
 > Built with ❤️ for **Ghana and Africa**, to solve local problems with global-class solutions.
 
-*A Project From the University of Education, Winneba* 
+*ඏ A Project From the University of Education, Winneba* 
 
 ✦***Graded and Scored by Doctor, Daniel Danso Essel [ ‎☞ D.D.E ](https://www.uew.edu.gh/dict/staff/ddessel)***
 
