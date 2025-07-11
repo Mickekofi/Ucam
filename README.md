@@ -34,7 +34,7 @@
 - [ඏ Project Origin](#project-origin)
 
 
-#### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
+### Q1.Why did We do this & What at all have we Implemented that Most Systems in Ghana & Africa have not yet Seen❓
 
 Simply we say;
 ####  1. A Decentralized Management Architecture  
