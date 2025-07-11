@@ -29,7 +29,7 @@
 
 - [ How Schools Can Use ](##-how-schools-use-this-system-step-by-step-for-non-technical-users)
 
-- [ Built & Design‎ ](#-Built-and-Designed-For)
+- [ Built & Design‎ ](#-built-and-designed-for)
 
 ### ❓ Q1. What Special Features Have We Added That Most Systems in Ghana & Africa have not yet Seen ?
 
