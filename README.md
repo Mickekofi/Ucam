@@ -120,7 +120,7 @@ A unique module that auto-admits qualified applicants based on subject-grade cri
 
 ##  R7. LAN-Based Multi-Client VB.NET Administration App
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/lan.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/lan.png)
 - The system works **locally over LAN**
 - **Multiple department admins** can log in from different computers
 - ✓ No internet needed  
@@ -242,11 +242,12 @@ If a student’s **WAEC grades match the admission criteria** of their:
    - Update or add department-specific criteria
 
 3. **Manage Admin Accounts:**
+   ![Preview](https://github.com/Mickekofi/Ucam/blob/master/dpt.jpg)
    - Create or remove department admin users
    - Reset passwords
    - Enable/disable programs
 
-4. **View Logs & Reports:**
+5. **View Logs & Reports:**
    - Every action is logged with:
      - Timestamp
      - Admin who took the action
