@@ -20,10 +20,8 @@
 # ඏ U C A M
 ‎A Full hybrid Web(client) +plus Desktop(Admin) **College/University Admission Management Software** with an *Open Enterprise Grade Architecture Systems Design.*
 
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/launch.jpg)
 
-> Before we throw dozens of words & docs at you…
-
-> **Let’s Answer Your Question❓ in 2 Minutes:**
 
 ---
 
@@ -35,6 +33,9 @@
 
 - [☞Enterprise Grade Architecture Design & Deployment(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
 
+> Before we throw dozens of words & docs at you…
+
+> **Let’s Answer Your Question❓ in 2 Minutes:**
   
 ### Q1.Why did We do this & What at all have we Implemented that Most Systems in Ghana & Africa have not yet Seen❓
 
