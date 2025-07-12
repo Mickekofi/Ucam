@@ -315,6 +315,7 @@ If a student’s **WAEC grades match the admission criteria** of their:
 ‎---
 ‎<div align="center" style="margin-top: 50px;">
 ‎  <h1 style="font-size: 2.5em; color: #ff6347;">We Are Currently Working on This</h1>
+<img src="https://github.com/Mickekofi/Ucam/blob/master/work.gif" alt="working on it" style="width: 200px; margin-top: 30px;">
 ‎  <p style="font-size: 1.5em; color: #555;">
 ‎    Our team is hard at work bringing a Smile to your face... 
 ‎    Stay tuned for the final release, and thank you for your patience!
@@ -322,7 +323,7 @@ If a student’s **WAEC grades match the admission criteria** of their:
 ‎  <p style="font-size: 1.8em; font-weight: bold; color: #2c3e50;">
 ‎    We will be done with everything by <span style="color: #27ae60;">August 1st 2025</span>.
 ‎  </p>
-‎  <img src="https://github.com/Mickekofi/Ucam/blob/master/work.gif" alt="working on it" style="width: 200px; margin-top: 30px;">
+‎  
 ‎</div>
 ‎
 ‎
