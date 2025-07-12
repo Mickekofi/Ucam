@@ -21,7 +21,7 @@
 
 ‎A Full hybrid Web(client) +plus Desktop(Admin) **College/University Admission Management Software** with an *Open Enterprise Grade Architecture Systems Design.*
 
-### [⚠️Project is still in Development](https://github.com/Mickekofi/Ucam/blob/master/404.md)
+#### [⚠️Project is still in Development & subject to modification](https://github.com/Mickekofi/Ucam/blob/master/404.md)
 ---
 
 ![Preview](https://github.com/Mickekofi/Ucam/blob/master/launch.jpg)
