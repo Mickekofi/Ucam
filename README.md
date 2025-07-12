@@ -159,11 +159,12 @@ Each entry contains:
 | ☞ Auditable Logs                   | Tracks actions and decisions for full accountability                    |
 
 ---
+
 - [☞ Enterprise Grade Architecture Design & Deployment(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
 ☝🏾
 ![Preview](https://github.com/Mickekofi/Ucam/blob/master/dbsheet.png)
 
-
+---
 
 
 ## How Schools Use This System Step by Step for Non-Technical Users
