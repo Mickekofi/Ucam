@@ -322,7 +322,7 @@ If a student’s **WAEC grades match the admission criteria** of their:
 ‎  <p style="font-size: 1.8em; font-weight: bold; color: #2c3e50;">
 ‎    We will be done with everything by <span style="color: #27ae60;">August 1st 2025</span>.
 ‎  </p>
-‎  <img src="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyaDEycHhpNjBjZzR6aWFod2dwdm1kanl0cHZqMnVrd2hnazV3cnQ0cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1wrgDc6j07hAlM7Jml/giphy.gif" alt="working on it" style="width: 200px; margin-top: 30px;">
+‎  <img src="https://github.com/Mickekofi/Ucam/blob/master/work.gif" alt="working on it" style="width: 200px; margin-top: 30px;">
 ‎</div>
 ‎
 ‎
