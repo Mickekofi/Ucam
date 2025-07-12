@@ -33,6 +33,9 @@
 
 - [☞Enterprise Grade Architecture Design & Deployment(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
 
+
+---
+
 > Before we throw dozens of words & docs at you…
 
 > **Let’s Answer Your Question❓ in 2 Minutes:**
@@ -48,6 +51,7 @@ Together, we call this:
 
 ## 🔐 R1 **Separation of Power Role Based Access Design**
 
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/lg.jpg)
 Implemented via clearly defined roles:
 
 - **Super Admins** : Global oversight & auditing
@@ -116,6 +120,7 @@ A unique module that auto-admits qualified applicants based on subject-grade cri
 
 ##  R7. LAN-Based Multi-Client VB.NET Administration App
 
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/lan.jpg)
 - The system works **locally over LAN**
 - **Multiple department admins** can log in from different computers
 - ✓ No internet needed  
@@ -169,20 +174,22 @@ This guide explains how **students**, **department admins**, and **super admins*
 
 ### 👨‍🎓 1. Student: How to Apply for Admission
 
+
 1. **Visit the Application Portal:**
    - Open the link provided by the school (e.g. `http://localhost/intelligent_portal/` or a public Ngrok/Cloudflare link).
 
 2. **Fill the Online Form:**
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/app.jpg)
    - Enter personal details, SHS subjects and WAEC grades.
    - Choose your 1st, 2nd, and 3rd program preferences.
    - Upload any required documents.
 
-3. **Submit Application:**
+4. **Submit Application:**
    - Click **Submit** after reviewing.
    - A **PDF receipt** is downloaded automatically.
    - A **confirmation email** is sent instantly.
 
-4.  **Done!** The system now takes over with auto-screening.
+5.  **Done!** The system now takes over with auto-screening.
 
 ---
 
@@ -224,6 +231,7 @@ If a student’s **WAEC grades match the admission criteria** of their:
 ---
 
 ### 👩‍💻 4. Super Admin: System Control & Monitoring
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/superadmin.jpg)
 
 1. **Login to the Super Admin Dashboard**
    - Use the same app, but login as a Super Admin.
