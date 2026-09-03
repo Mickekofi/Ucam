@@ -1,0 +1,88 @@
+Login Flow Documentation (login.vb)
+Purpose
+The login form authenticates users (either by username or department name) and routes them to the correct dashboard (SuperAdminDashboard or DepartmentAdminDashboard) based on their role. It also logs login actions and updates the user's last login time.
+---
+How the Flow Works
+1. UI Initialization
+•	On Form Load (login_Load):
+•	Applies rounded corners to the login button for improved UI.
+•	Starts a fade-in animation for the form.
+•	Loads an animated GIF into a picture box for visual feedback.
+•	Calls LoadDepartments() to populate the department ComboBox (txtUsername) with department names from the database.
+2. Department ComboBox (LoadDepartments)
+•	Connects to the database using the Database class.
+•	Executes a query to fetch all departments.
+•	Populates txtUsername with department names, allowing both selection and typing (autocomplete).
+3. Password Visibility
+•	When the mouse hovers over the password textbox (txtPassword), the password is revealed.
+•	When the mouse leaves, the password is hidden again.
+•	This is handled by txtPassword_MouseEnter and txtPassword_MouseLeave.
+
+
+4. Login Attempt (btnLogin_Click)
+•	Input Validation:
+Checks if both username/department and password are entered.
+•	Database Connection:
+Opens a connection using the Database class.
+•	User Authentication:
+•	First Attempt:
+Tries to match the entered value as a username in the users table.
+•	If found, checks the password.
+•	If successful, sets the LoggedInUser object's properties (ID, Role, DepartmentId).
+•	Updates the user's last_login timestamp.
+•	Logs the login action in the logs table.
+•	Shows the appropriate dashboard based on the user's role.
+•	Second Attempt:
+If not found as a username, tries to match the entered value as a department name in the departments table.
+•	If found, looks for a department_admin user for that department with the entered password.
+•	If successful, sets the LoggedInUser object's properties.
+•	Updates last_login and logs the action.
+•	Shows the DepartmentAdminDashboard.
+•	Failure:
+If neither attempt succeeds, shows an error message.
+---
+Why the Flow Is Designed This Way
+•	Dual Authentication:
+Allows both super admins (by username) and department admins (by department name) to log in using a single form.
+•	Security:
+Uses parameterized queries to prevent SQL injection. (Note: For production, password hashing should be used.)
+•	User Experience:
+•	Autocomplete and selection for departments.
+•	Password reveal on hover for convenience.
+•	Fade-in animation and GIF for a modern look.
+•	Audit Trail:
+Logs every login attempt for security and tracking.
+•	Role-Based Routing:
+Automatically directs users to the correct dashboard based on their role.
+---
+Classes and Objects Linked to the Flow
+1. Database Class
+•	Handles opening and managing the MySQL database connection.
+•	Used for all queries and commands in the login process.
+2. LoggedInUser Object
+•	Stores the currently logged-in user's ID, role, and department ID.
+•	Used to pass user context to other forms/dashboards.
+3. SuperAdminDashboard and DepartmentAdminDashboard
+•	Forms shown after successful login, depending on the user's role.
+4. logs Table
+•	Stores login actions for auditing (user_id, action, ip_address).
+5. departments Table
+•	Used to populate the department ComboBox and validate department admin logins.
+6. users Table
+•	Used to authenticate users and update login timestamps.
+---
+Summary of Flow
+1.	Form loads: UI is initialized, departments are loaded.
+2.	User enters credentials: Can be username or department name.
+3.	Login button clicked:
+•	Tries to authenticate as a user.
+•	If not found, tries as a department admin.
+•	On success, updates login info, logs the action, and shows the correct dashboard.
+•	On failure, shows an error.
+4.	Password can be revealed by hovering.
+5.	All database operations are handled by the Database class.
+6.	User context is stored in LoggedInUser for use in other parts of the application.
+---
+This design provides a flexible, secure, and user-friendly login experience, supporting multiple roles and logging all actions for audit purposes.
+
+

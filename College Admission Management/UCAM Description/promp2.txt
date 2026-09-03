@@ -1,0 +1,110 @@
+I have added other new lables to do some statistics, Complete all implementations
+You can also correct me too...
+- "lblDepartmentName"
+- "lblDepartmentQuota"
+- "lblTotalAllDepartmentApplicantsCounts" slash the Set Quota
+- "lblTotalDepartmentApplicantsAdmittedCounts" slash the Set Quota
+- "lblTotalDepartmentApplicantsRejectedCounts" slash the Set Quota
+- "lblTotaDepartmentApplicantsPendingCounts" slash the Set Quota
+- "lblDepartmentSlotsLeftTotal" which is the total admmitted subtracted from the Set Quota slash the Set Quota
+
+- "lblProgramName" 
+- "lblProgramTotalApplicantsCounts"
+- "lblProgramAdmitedCounts"
+- "lblProgramRejectedCounts"
+- "lblProgramPendingCounts"
+
+----------------------------------------------------
+
+
+
+{
+  "aggregate_formula": {
+    "core_subjects": [
+      "English",
+      "Mathematics",
+      "Integrated Science",
+      "Social Studies"
+    ],
+    "electives_required": 2,
+    "grade_map": {
+      "A1": 1,
+      "B2": 2,
+      "B3": 3,
+      "C4": 4,
+      "C5": 5,
+      "C6": 6,
+      "D7": 7,
+      "E8": 8,
+      "F9": 9
+    },
+    "aggregate_max": 24,
+    "min_aggregate": 12
+  },
+  "subject_requirements": [
+    {
+      "subject": "Mathematics",
+      "max_grade": "C6"
+    }
+  ],
+  "weights": {
+    "Math": 1.0
+  },
+  "tie_breakers": [
+    "aggregate_asc",
+    "math_grade_asc",
+    "dob_older_first"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+Complete this Vb.net winforms Form, i have already given you the database tables, i also have the Database class
+
+This is the UC_Department Form where Super Admin Creates a Department into the departments table
+
+
+1. - "txtName" : validates the name to accept only letters 
+2. - "txtEmail" : validates email
+3. -  "txtQuota" : validates input to only numbers
+4. - "dtpYear" 
+5. - "btnGenerateJson" : this button when cliked must use message boxes or dialogs to accepts  all friendly required inputs from user which formats and meets the Json critirial
+{
+  "aggregate_formula": {
+    "core_subjects": ["English", "Mathematics", "Integrated Science", "Social Studies"],
+    "electives_required": 2,
+    "grade_map": { "A1":1, "B2":2, "B3":3, "C4":4, "C5":5, "C6":6, "D7":7, "E8":8, "F9":9 },
+    "aggregate_max": 24,
+    "min_aggregate": 12
+  },
+  "subject_requirements": [
+    {"subject": "Mathematics", "max_grade": "C6"},
+    {"subject": "Physics", "max_grade": "C6"}
+  ],
+  "weights": { "Math": 1.5, "Physics": 1.2 },
+  "tie_breakers": ["aggregate_asc", "math_grade_asc", "dob_older_first"]
+}
+   
+
+6. - "txtJson": this displays the json generated format
+
+7. - "btnAddDepartment" - Finally Validates that all inputs are valid including "txtJson" and then sende it to the table
+
+
+
+8. - "btnUpdateDepartment" - Admin must select a department from the dgvDepartment gind view and then use sequential message boxes to validate and chage sucessfully
+9. - "btnDeleteDepartment" - Admin must select a department from the dgvDepartment gind view to validate and Delete sucessfully
+10. - "txtSearch" - Deparment names are searched here with auto-refresh find each time a letter is typed  
+11. - "dgvDepartments" - Loads all available Departments and all details to screen
+
+Use error provider icons and regex for validations

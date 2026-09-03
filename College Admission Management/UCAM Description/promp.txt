@@ -1,0 +1,11 @@
+After a Deparment Admin has logged in He enters the admission dashboard which i have done already.
+
+But each department must get results or outputs permissioned specific to them
+
+The Admission Form has the following controls 
+-  "cmbFilterRank"  combo box which filters 1,2,3 choises made
+- "cmbFilterStatus" combo box which filters Status
+-  "btnLoad" which loads all based on the filtered conditions into the "dgvApplicants"
+- "txtSearch" which does auto-refresh search on applicants
+- "lblQuotaInfo" which shows the count Admissions/ the set total
+- "btnAdmit" which  allows manual admits of applicant but Admin must write a comment for the manual admit and Admin should be tracked on that action. When admin clicks to admit promt admin do you want to continue
