@@ -24,7 +24,7 @@
 #### *[⚠️Project is still In Development & Subject to modification or Change](https://github.com/Mickekofi/Ucam/blob/master/404.md)*
 ---
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/launch.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F1.png)
 
 
 ---
@@ -55,7 +55,7 @@ Together, we call this:
 
 ## 🔐 R1 **Separation of Power Role Based Access Design**
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/lg.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F2.png)
 Implemented via clearly defined roles:
 
 - **Super Admins** : Global oversight & auditing
@@ -67,6 +67,10 @@ Implemented via clearly defined roles:
 
 ##  R2. Smart Admission Decision Flow (1st, 2nd, 3rd Choice Ranking)
 
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F5.png)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F10.png)
+
 - If **1st choice** rejects → automatically flows to **2nd choice**
 - If **2nd choice** rejects → automatically flows to **3rd choice**
 - If **all 3 choices** reject → applicant is **politely rejected**
@@ -76,6 +80,16 @@ Implemented via clearly defined roles:
 ---
 
 ## 🏛 R3. Departmental Autonomy + Central Control
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F3.png)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F5.png)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F6.png)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F7.png)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F8.png)
 
 - Each **department** sees **only their applicants**
 - **Super Admin** sees **all data globally** and can audit any activity
@@ -110,6 +124,8 @@ As soon as an applicant submits:
 ---
 
 ## ⚙️ R6. Auto-Admit Engine (Underrated Genius)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/F9.png)
 
 A unique module that auto-admits qualified applicants based on subject-grade criteria.
 
