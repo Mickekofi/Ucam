@@ -19,7 +19,7 @@
 
 # ඏ U C A M 
 
-‎A Full hybrid Web(client) +plus Desktop(Admin) **College/University Admission Management Software** with an *Open Enterprise Grade Architecture Systems Design.*
+‎A Full Desktop **College/University Admission Management Software** with an *Open Enterprise Grade Architecture Systems Design.*
 
 #### *[⚠️Project is still In Development & Subject to modification or Change](https://github.com/Mickekofi/Ucam/blob/master/404.md)*
 ---
