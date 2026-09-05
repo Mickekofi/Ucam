@@ -1,21 +1,28 @@
-# 🎓 UCAM - College/University Admission Management System
+‎=<p align="center">
+‎  
+‎    <img src="https://github.com/Mickekofi/Ucam/blob/master/ucam_logo.png" width="130">
+‎  </a>
+‎  
+‎  <h1 align="center"><strong>College/University Admission Management System</strong></h1>
+‎  </a>
+‎  <p align="center">
+‎    <a href="">
+‎      <img src="https://img.shields.io/badge/Join-Community-blue.svg" alt="MIT License">
+‎    </a>
+‎    <a href="https://wa.me/233505994829?text=*Ucam_From_Github_User_💬Message_:*%20">
+‎      <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
+‎    </a>
+‎  </p>
+‎</p>
+‎
+‎---
 
-<div align="center">
-
-![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Windows%20Desktop-0047AB?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-VB.NET%20WinForms-blue?style=for-the-badge)
-![Database](https://img.shields.io/badge/Database-MySQL-gold?style=for-the-badge)
-
-**A Full Desktop College/University Admission Management Software**
-
-*With Open Enterprise Grade Architecture Systems Design*
-
-</div>
-
+# ඏ U C A M 
 ---
 
 ## 📋 OVERVIEW
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image1.png)
 
 **UCAM** is a complete admission management solution for universities and colleges. It handles student applications, automated admissions decisions, and departmental oversight through two separate desktop applications.
 
@@ -24,25 +31,44 @@
 This project contains **TWO separate VB.NET WinForms applications**:
 
 #### 1. 👨‍🎓 **College Admission Form.sln**
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/app.jpg)
+
 - **For**: Students
 - **Purpose**: Apply online, submit WAEC results, select program preferences, check admission status
 - **Database.vb**: Configure for student-facing database access
 - **Access**: Can run locally or be deployed for remote access
 
 #### 2. 🏛️ **College Admission Management.sln**
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image3.jpg)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image10.jpg)
+
 - **For**: System Administrators and Department Heads
 - **Purpose**: Manage admissions, configure criteria, review applications, auto-admit qualified students
 - **Database.vb**: Configure for administrative database access
 - **Access**: Local network deployment for admin staff
 - **Roles**:
   - **Super Admin**: Full system control
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image3.jpg)
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.jpg)
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image4.jpg)
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image8.jpg)
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image6.jpg)
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image7.jpg)
+
   - **Department Admin**: Department-specific admission management
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.jpg)
 
 ---
 
 ## 🎯 KEY FEATURES
 
 ### R1. Separation of Power Role-Based Access Design
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image2.jpg)
+
+
 
 ```
 Super Admin
@@ -51,6 +77,8 @@ Super Admin
 ├─ Manage department admin users
 ├─ Configure admission criteria
 └─ View all applications across system
+
+
 
 Department Admin
 ├─ Local, scoped access to own department
@@ -65,6 +93,12 @@ Department Admin
 ---
 
 ### R2. Smart Admission Decision Flow (1st, 2nd, 3rd Choice Ranking)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.jpg)
+
+
+
+
 
 Applicants select 3 program preferences:
 
@@ -88,6 +122,11 @@ Auto-Admit Engine evaluates:
 
 ### R3. Departmental Autonomy + Central Control
 
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image7.jpg)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image10.jpg)
+
+
 - Each **department** sees **only their applicants**
 - **Super Admin** sees **all data globally** and can audit any activity
 - Department admins cannot access other departments' data
@@ -99,6 +138,8 @@ Auto-Admit Engine evaluates:
 ---
 
 ### R4. Dynamic WAEC Results Stored in JSON Format
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.jpg)
 
 WAEC examination results stored as JSON (not hardcoded fields):
 
@@ -126,6 +167,8 @@ WAEC examination results stored as JSON (not hardcoded fields):
 
 ### R5. Automated Acknowledgements: Emails + PDF Receipts
 
+> no image
+
 When student submits application:
 
 - ✓ **Automated email** confirmation is sent
@@ -137,6 +180,8 @@ When student submits application:
 ---
 
 ### R6. Auto-Admit Engine (Decision Intelligence)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.jpg)
 
 Unique module that automatically admits qualified applicants:
 

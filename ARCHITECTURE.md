@@ -4,8 +4,8 @@
 
 <div align="center">
 
-![Architecture](https://img.shields.io/badge/Pattern-Dual%20Solution%20Architecture-0047AB?style=for-the-badge)
-![Design](https://img.shields.io/badge/Framework-VB.NET%20WinForms-blue?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Pattern-Dual%20Solution%20Architecture-red?style=for-the-badge)
+![Design](https://img.shields.io/badge/Framework-VB.NET%20WinForms-black?style=for-the-badge)
 
 [📖 Back to README](./UCAM_README.md) • [🗄️ Database](./UCAM_DATABASE.md)
 
@@ -14,6 +14,11 @@
 ---
 
 ## SYSTEM OVERVIEW
+
+> **Note Correction:** Current Student Application in this image design is no longer ~Html/Php~ but a VB.NET winforms local but does not prevent stack change 
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image_architecture.png)
+
 
 ### Dual Solution Architecture
 

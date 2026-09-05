@@ -4,8 +4,8 @@
 
 <div align="center">
 
-![Database](https://img.shields.io/badge/Database-MySQL%205.7%2B-blue?style=for-the-badge)
-![Schema](https://img.shields.io/badge/Tables-9%20Core-gold?style=for-the-badge)
+![Database](https://img.shields.io/badge/Database-MySQL%205.7%2B-black?style=for-the-badge)
+![Schema](https://img.shields.io/badge/Tables-9%20Core-red?style=for-the-badge)
 ![Engine](https://img.shields.io/badge/Engine-InnoDB-0047AB?style=for-the-badge)
 
 [📖 Back to README](./UCAM_README.md) • [🏗️ Architecture](./UCAM_ARCHITECTURE.md)
@@ -14,7 +14,11 @@
 
 ---
 
+
 ## DATABASE OVERVIEW
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/dbsheet.png)
+
 
 **Database Name**: `ucam_db` (configurable in Database.vb)
 
