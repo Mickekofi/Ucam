@@ -1,313 +1,530 @@
-‎=<p align="center">
-‎  
-‎    <img src="https://github.com/Mickekofi/Ucam/blob/master/ucam_logo.png" width="130">
-‎  </a>
-‎  
-‎  <h1 align="center"><strong>College/University Admission Management System</strong></h1>
-‎  </a>
-‎  <p align="center">
-‎    <a href="">
-‎      <img src="https://img.shields.io/badge/Join-Community-blue.svg" alt="MIT License">
-‎    </a>
-‎    <a href="https://wa.me/233505994829?text=*Ucam_From_Github_User_💬Message_:*%20">
-‎      <img src="https://img.shields.io/badge/Contact-Engineers-red.svg" alt="Build Status">
-‎    </a>
-‎  </p>
-‎</p>
-‎
-‎---
+# 🎓 UCAM - College/University Admission Management System
 
-# ඏ U C A M 
+<div align="center">
 
-‎A Full Desktop **College/University Admission Management Software** with an *Open Enterprise Grade Architecture Systems Design.*
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Windows%20Desktop-0047AB?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-VB.NET%20WinForms-blue?style=for-the-badge)
+![Database](https://img.shields.io/badge/Database-MySQL-gold?style=for-the-badge)
 
-#### *[⚠️Project is still In Development & Subject to modification or Change](https://github.com/Mickekofi/Ucam/blob/master/404.md)*
----
+**A Full Desktop College/University Admission Management Software**
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image1.png)
+*With Open Enterprise Grade Architecture Systems Design*
 
+</div>
 
 ---
 
-- [How Schools Use The System (Simplified)](#how-schools-use-this-system-step-by-step-for-non-technical-users)
+## 📋 OVERVIEW
 
-- [‎☞ Built and Designed For](#built-and-designed-for)
+**UCAM** is a complete admission management solution for universities and colleges. It handles student applications, automated admissions decisions, and departmental oversight through two separate desktop applications.
 
-- [ඏ Project Origin](#project-origin)
+### Two Solutions in One Project
 
-- [☞Enterprise Grade Architecture Design & Deployment(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
+This project contains **TWO separate VB.NET WinForms applications**:
 
+#### 1. 👨‍🎓 **College Admission Form.sln**
+- **For**: Students
+- **Purpose**: Apply online, submit WAEC results, select program preferences, check admission status
+- **Database.vb**: Configure for student-facing database access
+- **Access**: Can run locally or be deployed for remote access
 
----
-
-> Before we throw dozens of words & docs at you…
-
-> **Let’s Answer Your Question❓ in 2 Minutes:**
-  
-### Q1.Why did We do this & What at all have we Implemented that Most Systems in Ghana & Africa have not yet Seen❓
-
-Simply we say;
-####  1. A Decentralized Management Architecture  
-####  2. Scalable User Permission System  
-####  3. Controlled Role-Based Access  
-
-Together, we call this:
-
-## 🔐 R1 **Separation of Power Role Based Access Design**
-
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image2.png)
-Implemented via clearly defined roles:
-
-- **Super Admins** : Global oversight & auditing
-- **Department Admins** : Local, scoped access to their own department data
-
-> ✓ Ensures accountability, clarity, scalability, and structured control.
+#### 2. 🏛️ **College Admission Management.sln**
+- **For**: System Administrators and Department Heads
+- **Purpose**: Manage admissions, configure criteria, review applications, auto-admit qualified students
+- **Database.vb**: Configure for administrative database access
+- **Access**: Local network deployment for admin staff
+- **Roles**:
+  - **Super Admin**: Full system control
+  - **Department Admin**: Department-specific admission management
 
 ---
 
-##  R2. Smart Admission Decision Flow (1st, 2nd, 3rd Choice Ranking)
+## 🎯 KEY FEATURES
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.png)
+### R1. Separation of Power Role-Based Access Design
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image10.png)
+```
+Super Admin
+├─ Global oversight & auditing
+├─ Create departments and programs
+├─ Manage department admin users
+├─ Configure admission criteria
+└─ View all applications across system
 
-- If **1st choice** rejects → automatically flows to **2nd choice**
-- If **2nd choice** rejects → automatically flows to **3rd choice**
-- If **all 3 choices** reject → applicant is **politely rejected**
+Department Admin
+├─ Local, scoped access to own department
+├─ Review applicants for their department
+├─ Make manual admission decisions
+├─ Override auto-admit decisions (if permitted)
+└─ Generate department reports
+```
 
-> ✓ Makes admission more dynamic, intelligent, and fair
+> ✓ Ensures accountability, clarity, scalability, and structured control
 
 ---
 
-## 🏛 R3. Departmental Autonomy + Central Control
+### R2. Smart Admission Decision Flow (1st, 2nd, 3rd Choice Ranking)
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image3.png)
+Applicants select 3 program preferences:
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.png)
+```
+Student applies with:
+├─ 1st Choice Program
+├─ 2nd Choice Program
+└─ 3rd Choice Program
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image6.png)
+Auto-Admit Engine evaluates:
+│
+├─ Does 1st choice criteria match? → ADMIT to 1st choice ✓
+├─ If NO: Does 2nd choice match? → ADMIT to 2nd choice ✓
+├─ If NO: Does 3rd choice match? → ADMIT to 3rd choice ✓
+└─ If NO: REJECT applicant ✗
+```
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image7.png)
+> ✓ Makes admission dynamic, intelligent, and fair
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image8.png)
+---
+
+### R3. Departmental Autonomy + Central Control
 
 - Each **department** sees **only their applicants**
 - **Super Admin** sees **all data globally** and can audit any activity
+- Department admins cannot access other departments' data
 
-> ✓ Prevents overload  
+> ✓ Prevents data overload  
 > ✓ Boosts clarity  
 > ✓ Strengthens data security and accountability
 
 ---
 
-## 📄 R4. Dynamic WAEC Results Stored in JSON Format
+### R4. Dynamic WAEC Results Stored in JSON Format
 
-We use JSON format instead of hardcoded database fields to store WAEC results.
+WAEC examination results stored as JSON (not hardcoded fields):
 
-### Benefits:
-- ✓ **Dynamic filtering** and **rule-based parsing**
-- ✓ **AI-ready** scoring engine for future expansion
-- ✓ **Easy schema updates** without altering table structures
+```json
+{
+  "subjects": [
+    {
+      "subject": "English",
+      "grade": "C6"
+    },
+    {
+      "subject": "Mathematics",
+      "grade": "B3"
+    }
+  ]
+}
+```
+
+**Benefits:**
+- ✓ Dynamic filtering and rule-based parsing
+- ✓ AI-ready scoring engine for future expansion
+- ✓ Easy schema updates without database restructuring
 
 ---
 
-## 📧 R5. Automation: Emails + PDF Receipts
+### R5. Automated Acknowledgements: Emails + PDF Receipts
 
-As soon as an applicant submits:
+When student submits application:
 
-- ✓ An **automated email** is sent
-- ✓ A **PDF receipt** is generated and stored
-- ✓ The student has **instant proof of submission**
+- ✓ **Automated email** confirmation is sent
+- ✓ **PDF receipt** is generated instantly
+- ✓ Student has **immediate proof of submission**
 
-> Enhances transparency, user trust, and system professionalism.
+> Enhances transparency, user trust, and system professionalism
 
 ---
 
-## ⚙️ R6. Auto-Admit Engine (Underrated Genius)
+### R6. Auto-Admit Engine (Decision Intelligence)
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.png)
+Unique module that automatically admits qualified applicants:
 
-A unique module that auto-admits qualified applicants based on subject-grade criteria.
+- Uses `criteria_json` rules for instant validation
+- Evaluates WAEC results against program requirements
+- Applies aggregate scoring and subject-grade thresholds
+- Implements tie-breaker rules for equal scores
 
--  Uses `criteria_json` rules for fast validation
+**Benefits:**
 - ✓ Reduces manual workload
 - ✓ Minimizes human bias
-- ✓ Enables real-time admission
+- ✓ Enables real-time admission decisions
+- ✓ Semi-AI decision engine without expensive AI tools
 
-> A simple, scalable **semi-AI decision engine** without expensive AI tools.
-
----
-
-##  R7. LAN-Based Multi-Client VB.NET Administration App
-
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/lan.png)
-- The system works **locally over LAN**
-- **Multiple department admins** can log in from different computers
-- ✓ No internet needed  
-- ✓ Fast, secure, and cost-effective deployment
+**Decision Criteria Includes:**
+- Aggregate formula calculation
+- Subject-specific grade requirements
+- Weighted scoring system
+- Tie-breaker logic (aggregate ascending, math grade ascending, age preference)
 
 ---
 
-## R8 Audit Logs & Admission Flow Tracking
+### R7. Dual-Client Architecture
+
+```
+┌─────────────────────────┬─────────────────────────┐
+│  Admission Form App      │  Admission Management   │
+│  (Student Portal)        │  (Admin Portal)         │
+├─────────────────────────┼─────────────────────────┤
+│ • Apply for programs    │ • Create departments    │
+│ • Upload WAEC results   │ • Set admission criteria│
+│ • Check admission status│ • Manage admin users    │
+│ • View decisions        │ • Auto-admit students   │
+│                         │ • Review applications   │
+│                         │ • Generate reports      │
+│                         │ • View audit logs       │
+└─────────────────────────┴─────────────────────────┘
+         ↓                          ↓
+        Single MySQL Database
+```
+
+- Both apps work **locally over LAN** or deployed separately
+- **No internet required** for local deployment
+- Fast, secure, and cost-effective
+
+---
+
+### R8. Audit Logs & Admission Flow Tracking
 
 Every action is logged in:
 
-- `logs` table  
-- `admission_flow_log` table
+- `logs` table - System-wide activity logging
+- `admission_flow_log` table - Admission decision tracking
 
 Each entry contains:
 
-- 🕒 Timestamp  
-- 🌐 IP Address  
-- 👤 Responsible Admin  
-- 📋 Decision Reason  
+- 🕒 Timestamp of action
+- 🌐 IP address of user
+- 👤 Responsible admin/user
+- 📋 Decision or action taken
+- 📝 Reason/notes for decision
 
 > ✓ Full transparency for accountability and auditing (even for regulators)
 
 ---
 
-## Summary Table of Features
+## 🚀 QUICK START
 
-| Feature                             | Description                                                             |
-|-------------------------------------|-------------------------------------------------------------------------|
-| ☞ Separation of Roles              | Super Admin vs Department Admins                                        |
-| ☞ Smart Flow Logic                 | 1st → 2nd → 3rd Choice Admission Routing                                |
-| ☞ Dynamic WAEC Results             | Stored as JSON, ready for rules-based parsing and future AI scoring     |
-| ☞ Automated Acknowledgements       | Email + PDF receipt generated instantly                                 |
-| ☞ Auto-Admit Decision Engine       | Semi-AI logic to admit applicants who meet defined criteria             |
-| ☞ LAN Deployment                   | No internet dependency – works locally across a campus or office        |
-| ☞ Auditable Logs                   | Tracks actions and decisions for full accountability                    |
+### System Requirements
 
----
+| Component | Requirement |
+|-----------|-------------|
+| **Operating System** | Windows 10 or Higher |
+| **IDE** | Visual Studio 2022 |
+| **.NET Framework** | 4.7.2+ |
+| **Web Server** | Apache (with MySQL support) |
+| **Database** | MySQL 5.7+ |
+| **RAM** | 4GB minimum (8GB+ recommended) |
+| **Storage** | 500MB+ available space |
 
-- [☞ Enterprise Grade Architecture Design & Deployment(For Technical Developers)](https://github.com/Mickekofi/Ucam/blob/master/Enterprise%20Grade%20Design.md)
-☝🏾
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/dbsheet.png)
+### Prerequisites
 
----
+**Install MySQL**
+- Download from https://www.mysql.com/downloads/
+- Or use via Apache bundle (XAMPP, WAMP, etc.)
 
+**Install Visual Studio 2022**
+- Download from https://visualstudio.microsoft.com/
+- Include .NET desktop development workload
+- Include VB.NET support
 
-## How Schools Use This System Step by Step for Non-Technical Users
+**Install Apache (Optional for web deployment)**
+- For local LAN deployment, Apache not required
+- For remote access, configure Apache with PHP
 
-This guide explains how **students**, **department admins**, and **super admins** can use the system — no IT skills needed.
+### Database Setup
 
----
+**Step 1: Import Database Schema**
 
-### 👨‍🎓 1. Student: How to Apply for Admission
+1. Open MySQL command line or MySQL Workbench
+2. Create database (optional - import creates it):
+   ```sql
+   CREATE DATABASE ucam_db;
+   ```
 
+3. Import the schema:
+   ```bash
+   mysql -u root -p ucam_db < Ucam/plan_files/UCAM_db.sql
+   ```
 
-1. **Visit the Application Portal:**
-   - Open the link provided by the school (e.g. `http://localhost/intelligent_portal/` or a public Ngrok/Cloudflare link).
+   Or import via MySQL Workbench:
+   - File → Run SQL Script
+   - Select: `Ucam/plan_files/UCAM_db.sql`
+   - Execute
 
-2. **Fill the Online Form:**
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/app.jpg)
-   - Enter personal details, SHS subjects and WAEC grades.
-   - Choose your 1st, 2nd, and 3rd program preferences.
-   - Upload any required documents.
+4. Verify tables created:
+   ```sql
+   USE ucam_db;
+   SHOW TABLES;
+   ```
 
-4. **Submit Application:**
-   - Click **Submit** after reviewing.
-   - A **PDF receipt** is downloaded automatically.
-   - A **confirmation email** is sent instantly.
-
-5.  **Done!** The system now takes over with auto-screening.
-
----
-
-### 🤖 2. Auto-Admit System: Smart, Instant Admission
-
-If a student’s **WAEC grades match the admission criteria** of their:
-
-- **1st choice** → The system **automatically admits** the student.
-- ❌ If rejected → Automatically moves to **2nd choice**
-- ❌ If rejected again → Moves to **3rd choice**
-- ❌ If all 3 fail → A polite rejection message is generated.
-
- Criteria is stored in the system as smart rules (e.g., must get at least C6 in Math and English for BSc programs).
-
-> 🎯 This eliminates bias, saves time, and ensures fair admission.
+   Should show 9 tables: departments, programs, users, students, program_choices, admissions, admission_flow_log, logs, settings
 
 ---
 
-### 🧑‍💼 3. Department Admin: What You Can Do
+### Installation: College Admission Management.sln (Admin App)
 
-1. **Open the Admin App:**
-   - Double-click the Windows application (no browser needed).
-   - Login using your assigned Department Admin credentials.
+**Step 1: Open Solution in Visual Studio 2022**
+```
+File → Open → College Admission Management.sln
+```
 
-2. **Monitor Applicants in Your Department:**
-   - View applicants who selected your department as 1st, 2nd, or 3rd choice.
-   - See whether they were **auto-admitted** or still **pending**.
+**Step 2: Configure Database.vb**
 
-3. **Manually Review or Adjust Decisions (If Needed):**
-   - For applicants who didn’t meet auto-admit criteria, you can:
-     - Admit manually
-     - Reject with a reason
-   - You can also override auto decisions in special cases (if permitted).
+1. Open `Database.vb` file in the project
+2. Find the connection string (line where MySQL connection is defined)
+3. Update connection details:
+   ```vb
+   ' Example configuration
+   Private connectionString As String = "server=localhost;database=ucam_db;uid=root;password=;"
+   ```
+   
+   Replace with your settings:
+   - `localhost` - MySQL server address
+   - `ucam_db` - Your database name
+   - `root` - Your MySQL username
+   - Leave empty or add password if set
 
-4. **Export Reports:**
-   - Download Excel or PDF list of admitted students.
-   - Track all admission activities in a readable format.
+**Step 3: Build Solution**
+```
+Build → Build Solution
+(Or press Ctrl+Shift+B)
+```
+
+**Step 4: Run Application**
+```
+Debug → Start Debugging
+(Or press F5)
+```
+
+**Step 5: First Login**
+
+1. Application starts
+2. Login with default Super Admin credentials (if created during setup)
+3. Or check database for initial user credentials
 
 ---
 
-### 👩‍💻 4. Super Admin: System Control & Monitoring
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/superadmin.jpg)
+### Installation: College Admission Form.sln (Student App)
 
-1. **Login to the Super Admin Dashboard**
-   - Use the same app, but login as a Super Admin.
+**Step 1: Open Solution in Visual Studio 2022**
+```
+File → Open → College Admission Form.sln
+```
 
-2. **Manage the Entire Admission Process:**
-   - View all applicants across departments
-   - Monitor all decisions (manual or automatic)
-   - Update or add department-specific criteria
+**Step 2: Configure Database.vb**
 
-3. **Manage Admin Accounts:**
-   ![Preview](https://github.com/Mickekofi/Ucam/blob/master/dpt.jpg)
-   - Create or remove department admin users
-   - Reset passwords
+1. Open `Database.vb` file in this solution (different from Management app)
+2. Update connection string (same database, different configuration if needed):
+   ```vb
+   Private connectionString As String = "server=localhost;database=ucam_db;uid=root;password=;"
+   ```
+
+**Step 3: Build Solution**
+```
+Build → Build Solution
+```
+
+**Step 4: Run Application**
+```
+Debug → Start Debugging
+```
+
+**Step 5: Student Portal Ready**
+
+1. Application opens
+2. Students can now fill application forms
+3. Submit applications with WAEC results
+4. Check admission status
+
+---
+
+## 👥 USER ROLES & WORKFLOWS
+
+### 👨‍🎓 Student: How to Apply
+
+1. **Open College Admission Form.sln application**
+2. **Fill Application Form:**
+   - Personal details (name, email, phone, DOB)
+   - Academic information (index number, SHS attended)
+   - WAEC examination results (subjects and grades)
+3. **Select Program Preferences:**
+   - Choose 1st choice program
+   - Choose 2nd choice program (backup)
+   - Choose 3rd choice program (final backup)
+4. **Upload Documents:**
+   - Certificate/diploma scans (if required)
+5. **Submit Application:**
+   - Click Submit
+   - **PDF receipt** downloads automatically
+   - **Confirmation email** sent instantly
+6. **Check Status:**
+   - Anytime via "Check Admission Status" feature
+   - View decision for 1st, 2nd, or 3rd choice
+
+---
+
+### 🤖 Auto-Admit Engine: Automatic Decision
+
+The Management app runs auto-admit process:
+
+1. **Evaluation Against Criteria:**
+   - Reads `criteria_json` from department
+   - Checks student's WAEC results from `waec_results_json`
+   - Calculates aggregate score
+
+2. **Decision Logic:**
+   - **1st Choice**: Does student meet criteria? → AUTO-ADMIT
+   - **If Rejected**: Check 2nd choice criteria → AUTO-ADMIT if qualifies
+   - **If Rejected**: Check 3rd choice criteria → AUTO-ADMIT if qualifies
+   - **If All Rejected**: Generate rejection message
+
+3. **Results Stored:**
+   - Decision recorded in `admissions` table
+   - Flow logged in `admission_flow_log` table
+   - Student notified (email + status update)
+
+---
+
+### 🧑‍💼 Department Admin: Manage Department Admissions
+
+1. **Open College Admission Management.sln**
+2. **Login as Department Admin**
+   - Uses credentials assigned by Super Admin
+   - Can only see own department's applicants
+
+3. **Review Applicants:**
+   - View list of applicants for your department
+   - Filter by: 1st choice, 2nd choice, 3rd choice
+   - See auto-admit decisions already made
+
+4. **Manual Actions (if needed):**
+   - Override auto-admit decisions (with reason)
+   - Manually admit borderline cases
+   - Reject applicants with notes
+   - Add decision reason to notes
+
+5. **Generate Reports:**
+   - Export admitted students list (Excel/PDF)
+   - View admission statistics
+   - Track decision timeline
+
+---
+
+### 👩‍💻 Super Admin: Full System Control
+
+1. **Open College Admission Management.sln**
+2. **Login as Super Admin**
+   - Full access to entire system
+
+3. **Manage Departments:**
+   - Create new departments
+   - Set department quotas
+   - Configure department email
+
+4. **Manage Programs:**
+   - Create programs under departments
+   - Set program prerequisites
    - Enable/disable programs
 
-5. **View Logs & Reports:**
-   - Every action is logged with:
-     - Timestamp
-     - Admin who took the action
-     - Reason for decision
-   - Logs are accessible and exportable
+5. **Configure Admission Criteria:**
+   - Set `criteria_json` for each department
+   - Define aggregate formula
+   - Set subject-specific requirements
+   - Configure tie-breaker rules
+
+6. **Manage Users:**
+   - Create department admin accounts
+   - Assign admins to departments
+   - Reset admin passwords
+   - View all user activity
+
+7. **View All Applications:**
+   - Access all student applications
+   - View decisions across all departments
+   - Monitor auto-admit engine results
+
+8. **View Audit Logs:**
+   - Access `logs` table for system activity
+   - View `admission_flow_log` for all decisions
+   - Export audit reports
+   - Track IP addresses and timestamps
 
 ---
 
-### 🧾 Summary of Roles
+## 📁 PROJECT STRUCTURE
 
-| Role              | Capabilities                                                                 |
-|-------------------|------------------------------------------------------------------------------|
-| 👨‍🎓 Student         | Applies online, receives PDF + email confirmation                            |
-| 🤖 Auto-Admit Bot   | Automatically admits qualified students based on WAEC + subject criteria     |
-| 🧑‍💼 Department Admin | Views and manages department-specific applicants; can override auto-decisions |
-| 👩‍💻 Super Admin     | Full control over all departments, users, audit logs, and admission rules     |
+```
+UCAM/
+│
+├── College Admission Management.sln
+│   ├── My Project
+│   ├── Dependencies
+│   ├── Database.vb              # Configure for admin access
+│   ├── Users[Admin Forms & Logic]
+│   └── [Helper Classes]
+│
+├── College Admission Form.sln
+│   ├── My Project
+│   ├── StudentUser
+│   ├── Database.vb              # Configure for student access
+│   ├── Form1.vb                 # Main application form
+│   ├── [Student Forms]
+│   └── [Helper Classes]
+│
+├── plan_files/
+│   └── UCAM_db.sql              # Database schema (9 tables)
+│
+└── Assets/
+    ├── ucam_logo.png
+    └── [Screenshots]
+```
+
+**Important:** Each solution has its **own Database.vb** file. Configure both separately based on your environment.
 
 ---
 
+## 🔧 TECH STACK
 
+| Component | Technology |
+|-----------|-----------|
+| **IDE** | Visual Studio 2022 |
+| **Language** | VB.NET |
+| **UI Framework** | Windows Forms (WinForms) |
+| **Database** | MySQL 5.7+ |
+| **Database Connector** | MySQL Connector/NET |
+| **Server** | Apache (optional for web access) |
+| **Operating System** | Windows 10+ |
 
-- **Students** need only a browser or smartphone  
-- **Admins** just open a desktop app and log in
+---
 
-> The system is designed for *ease, fairness, speed, and automation*. Schools without IT departments can still run full digital admissions — smoothly.
+## 📚 DOCUMENTATION
 
+- **[DATABASE.md](./DATABASE.md)** - Complete database schema, tables, and relationships
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - System design, role-based architecture, decision engine flow
 
+---
 
-## Built and Designed For
+## 🎓 Academic Origin
 
-- Universities, Colleges and Technical Universities
-- Admission Committees
-- Centralized/Decentralized School Systems
-- Offline Environments with Local Networks
+**Project From:** University of Education, Winneba  
+**Department:** BSc. Information & Communications Technology Education (ICTE)  
+**Supervised By:** Dr. Daniel Danso Essel
 
-> Built with ❤️ for **Ghana and Africa**, to solve local problems with global-class solutions.
+---
 
-## Project Origin
+## 📞 CONTACT & SUPPORT
 
-*ඏ A Project From the University of Education,Winneba ☞ Bsc. ICTE Department* 
+For questions or support:
+- **WhatsApp**: [Contact Engineers](https://wa.me/233507326320?text=*UCAM_From_Github_💬Message_:*%20)
+- **GitHub**: Open an issue in the repository
 
-***Graded and Scored by Doctor. Daniel Danso Essel [ ‎☞ D.D.E ](https://www.uew.edu.gh/dict/staff/ddessel)***
+---
+
+<div align="center">
+
+### Built with ❤️ for Ghana and Africa
+
+**UCAM** | Solving Local Admission Challenges with Global-Class Solutions
+
+</div>
