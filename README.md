@@ -18,6 +18,10 @@
 ‎---
 
 # ඏ U C A M 
+
+- **[DATABASE.md](./DATABASE.md)** - Complete database schema, tables, and relationships
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - System design, role-based architecture, decision engine flow
+
 ---
 
 ## 📋 OVERVIEW
@@ -32,7 +36,7 @@ This project contains **TWO separate VB.NET WinForms applications**:
 
 #### 1. 👨‍🎓 **College Admission Form.sln**
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/app.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/app.png)
 
 - **For**: Students
 - **Purpose**: Apply online, submit WAEC results, select program preferences, check admission status
@@ -40,9 +44,10 @@ This project contains **TWO separate VB.NET WinForms applications**:
 - **Access**: Can run locally or be deployed for remote access
 
 #### 2. 🏛️ **College Admission Management.sln**
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image3.jpg)
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image10.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image3.png)
+
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image10.png)
 
 - **For**: System Administrators and Department Heads
 - **Purpose**: Manage admissions, configure criteria, review applications, auto-admit qualified students
@@ -50,15 +55,22 @@ This project contains **TWO separate VB.NET WinForms applications**:
 - **Access**: Local network deployment for admin staff
 - **Roles**:
   - **Super Admin**: Full system control
-  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image3.jpg)
-  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.jpg)
-  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image4.jpg)
-  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image8.jpg)
-  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image6.jpg)
-  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image7.jpg)
+  
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image3.png)
+   
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.png)
+  
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image4.png)
+  
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image8.png)
+  
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image6.png)
+  
+  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image7.png)
 
   - **Department Admin**: Department-specific admission management
-  ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.jpg)
+  
+  - ![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.png)
 
 ---
 
@@ -66,7 +78,7 @@ This project contains **TWO separate VB.NET WinForms applications**:
 
 ### R1. Separation of Power Role-Based Access Design
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image2.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image2.png)
 
 
 
@@ -94,7 +106,7 @@ Department Admin
 
 ### R2. Smart Admission Decision Flow (1st, 2nd, 3rd Choice Ranking)
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.png)
 
 
 
@@ -122,9 +134,9 @@ Auto-Admit Engine evaluates:
 
 ### R3. Departmental Autonomy + Central Control
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image7.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image7.png)
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image10.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image10.png)
 
 
 - Each **department** sees **only their applicants**
@@ -139,7 +151,7 @@ Auto-Admit Engine evaluates:
 
 ### R4. Dynamic WAEC Results Stored in JSON Format
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image5.png)
 
 WAEC examination results stored as JSON (not hardcoded fields):
 
@@ -181,7 +193,7 @@ When student submits application:
 
 ### R6. Auto-Admit Engine (Decision Intelligence)
 
-![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.jpg)
+![Preview](https://github.com/Mickekofi/Ucam/blob/master/image9.png)
 
 Unique module that automatically admits qualified applicants:
 
