@@ -578,10 +578,6 @@ For questions or support:
 
 ---
 
-<div align="center">
 
 ### Built with ❤️ for Ghana and Africa
 
-**UCAM** | Solving Local Admission Challenges with Global-Class Solutions
-
-</div>

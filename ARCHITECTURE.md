@@ -525,12 +525,4 @@ Student 5, 3rd choice → Pending → "Not evaluated yet" → [Future]
 
 ---
 
-<div align="center">
 
-**UCAM Architecture Documentation v1.0**
-
-College/University Admission Management System
-
-*Last Updated: Current*
-
-</div>
