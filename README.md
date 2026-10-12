@@ -20,8 +20,11 @@
 # ඏ U C A M 
 
 - **[DATABASE.md](./DATABASE.md)** - Complete database schema, tables, and relationships
-- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - System design, role-based architecture, decision engine flow
+
 [![Architecture diagram](https://gitdiagram.com/diagram-badge.svg)](https://gitdiagram.com/mickekofi/ucam?utm_source=readme&utm_medium=badge)
+
+- **[ARCHITECTURE.md](./ARCHITECTURE.md)** - System design, role-based architecture, decision engine flow
+
 ---
 
 ## 📋 OVERVIEW
